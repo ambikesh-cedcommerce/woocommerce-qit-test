@@ -50,37 +50,37 @@ To execute and authenticate with your Woo.com Partner Developer account.
 ## Run Locally
  End-to-End Tests
  ```bash
-./vendor/bin/qit run:e2e my-plugin-slug
+./vendor/bin/qit run:e2e my-plugin-slug --zip=my-plugin-slug
 ```
  Activation Tests
 ```bash
-./vendor/bin/qit run:activation my-plugin-slug
+./vendor/bin/qit run:activation my-plugin-slug --zip=my-plugin-slug
 ```
  Security Tests
 ```bash
-./vendor/bin/qit run:security my-plugin-slug
+./vendor/bin/qit run:security my-plugin-slug --zip=my-plugin-slug
 ```
  PHP Stan Tests
 ```bash
-./vendor/bin/qit run:phpstan my-plugin-slug
+./vendor/bin/qit run:phpstan my-plugin-slug --zip=my-plugin-slug
 ```
  API Tests
 ```bash
-./vendor/bin/qit run:api my-plugin-slug
+./vendor/bin/qit run:api my-plugin-slug --zip=my-plugin-slug
 ```
  PHP Compatibility Tests
 ```bash
-./vendor/bin/qit run:phpcompatibility my-plugin-slug
+./vendor/bin/qit run:phpcompatibility my-plugin-slug --zip=my-plugin-slug
 ```
  Malware Tests
 ```bash
-./vendor/bin/qit run:malware my-plugin-slug
+./vendor/bin/qit run:malware my-plugin-slug --zip=my-plugin-slug
 ```
 
 ### Testing a published extension
 
 ```bash
- qit run:e2e my-extension
+ qit run:e2e my-extension --zip=my-plugin-slug
 ```
 
 ## Documentation
