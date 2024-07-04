@@ -85,5 +85,5 @@ To execute and authenticate with your Woo.com Partner Developer account.
 
 ## Documentation
 
-[Documentation]([https://woocommerce.github.io/qit-documentation/#/](https://qit.woo.com/docs/))
+[Documentation](https://qit.woo.com/docs/)
 
